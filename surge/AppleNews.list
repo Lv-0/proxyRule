@@ -10,3 +10,12 @@ DOMAIN,news-client.apple.com
 DOMAIN,news-edge.apple.com
 DOMAIN,news-events.apple.com
 DOMAIN,apple.comscoreresearch.com
+DOMAIN-SUFFIX,ls.apple.com
+DOMAIN-SUFFIX,lcdn-registration.apple.com
+DOMAIN-SUFFIX,lcdn-locator.apple.com
+DOMAIN,gs-loc.apple.com
+USER-AGENT,Maps*
+USER-AGENT,locationd*
+USER-AGENT,geod*
+USER-AGENT,com.apple.Maps
+USER-AGENT,com.apple.geod*
