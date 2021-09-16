@@ -1,4 +1,5 @@
 # > Discovery+ IN
+DOMAIN-SUFFIX,baidu.com
 USER-AGENT,discovery+
 DOMAIN-SUFFIX,litix.io
 DOMAIN-SUFFIX,discoveryplus.in
@@ -85,7 +86,7 @@ DOMAIN-KEYWORD,voddazn
 # > VIP
 DOMAIN-SUFFIX,t66y.com
 DOMAIN-SUFFIX,avgle.com
-DOMAIN-SUFFIX,baidu.com
+
 
 
 
