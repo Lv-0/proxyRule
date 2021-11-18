@@ -27,16 +27,6 @@ DOMAIN-SUFFIX,discoveryplus.in
 DOMAIN,ap2-prod-images.disco-api.com
 DOMAIN,prod-realmservice.mercury.dnitv.com
 
-# > Disney Plus
-USER-AGENT,Disney*
-DOMAIN-SUFFIX,disneyplus.com
-DOMAIN-SUFFIX,disney-plus.net
-DOMAIN-SUFFIX,disneystreaming.com
-DOMAIN-SUFFIX,dssott.com
-DOMAIN-SUFFIX,bamgrid.com
-DOMAIN-SUFFIX,execute-api.us-east-1.amazonaws.com
-DOMAIN,cdn.registerdisney.go.com
-
 # > friDay
 USER-AGENT,friDay*
 DOMAIN-SUFFIX,friday.tw
@@ -109,8 +99,3 @@ DOMAIN-KEYWORD,voddazn
 DOMAIN-SUFFIX,t66y.com
 DOMAIN-SUFFIX,avgle.com
 DOMAIN-SUFFIX,javhdporn.net
-
-# > lol
-DOMAIN-SUFFIX,riotcdn.net
-DOMAIN-SUFFIX,wr.pvp.net
-DOMAIN-SUFFIX,riotgames.com
