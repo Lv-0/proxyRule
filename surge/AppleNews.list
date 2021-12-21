@@ -19,3 +19,83 @@ USER-AGENT,locationd*
 USER-AGENT,geod*
 USER-AGENT,com.apple.Maps
 USER-AGENT,com.apple.geod*
+
+# > Discovery+ IN
+USER-AGENT,discovery+
+DOMAIN-SUFFIX,litix.io
+DOMAIN-SUFFIX,discoveryplus.in
+DOMAIN,ap2-prod-images.disco-api.com
+DOMAIN,prod-realmservice.mercury.dnitv.com
+
+# > friDay
+USER-AGENT,friDay*
+DOMAIN-SUFFIX,friday.tw
+
+# > HBO GO Asia
+USER-AGENT,HBO%20GO%20PROD*
+DOMAIN-KEYWORD,hbogoasia
+DOMAIN-SUFFIX,hboasia.com
+DOMAIN-SUFFIX,hbogoasia.com
+DOMAIN,hbolb.onwardsmg.com
+DOMAIN,hbounify-prod.evergent.com
+DOMAIN,bcbolthboa-a.akamaihd.net
+DOMAIN,dai3fd1oh325y.cloudfront.net
+
+# > HBO Max
+USER-AGENT,HBOMAX*
+DOMAIN-SUFFIX,hbo.com
+DOMAIN-SUFFIX,hbogo.com
+DOMAIN-SUFFIX,hbonow.com
+DOMAIN-SUFFIX,hbomax.com
+
+# > Hulu
+DOMAIN-SUFFIX,hulu.com
+DOMAIN-SUFFIX,huluim.com
+DOMAIN-SUFFIX,hulustream.com
+DOMAIN,cws-hulu.conviva.com
+DOMAIN,assetshuluimcom-a.akamaihd.net
+
+# > Hulu JP
+DOMAIN-SUFFIX,hulu.jp
+DOMAIN-SUFFIX,happyon.jp
+DOMAIN-SUFFIX,prod.hjholdings.tv
+
+# > Amazon Prime Video
+USER-AGENT,InstantVideo.US*
+USER-AGENT,Prime%20Video*
+DOMAIN-SUFFIX,aiv-cdn.net
+DOMAIN-SUFFIX,aiv-delivery.net
+DOMAIN-SUFFIX,amazonvideo.com
+DOMAIN-SUFFIX,primevideo.com
+DOMAIN-SUFFIX,media-amazon.com
+DOMAIN,atv-ps.amazon.com
+DOMAIN,fls-na.amazon.com
+DOMAIN,avodmp4s3ww-a.akamaihd.net
+DOMAIN,d25xi40x97liuc.cloudfront.net
+DOMAIN,dmqdd6hw24ucf.cloudfront.net
+DOMAIN,dmqdd6hw24ucf.cloudfront.net
+DOMAIN,d22qjgkvxw22r6.cloudfront.net
+DOMAIN,d1v5ir2lpwr8os.cloudfront.net
+DOMAIN,d27xxe7juh1us6.cloudfront.net
+DOMAIN-KEYWORD,avoddashs
+
+# > BBC iPlayer
+USER-AGENT,BBCiPlayer*
+DOMAIN-SUFFIX,bbc.co.uk
+DOMAIN-SUFFIX,bbci.co.uk
+DOMAIN-KEYWORD,bbcfmt
+DOMAIN-KEYWORD,uk-live
+
+# > DAZN
+USER-AGENT,DAZN*
+DOMAIN-SUFFIX,dazn.com
+DOMAIN-SUFFIX,dazn-api.com
+DOMAIN-SUFFIX,dazndn.com
+DOMAIN-SUFFIX,indazn.com
+DOMAIN,d151l6v8er5bdm.cloudfront.net
+DOMAIN-KEYWORD,voddazn
+
+# > VIP
+DOMAIN-SUFFIX,t66y.com
+DOMAIN-SUFFIX,avgle.com
+DOMAIN-SUFFIX,javhdporn.net
