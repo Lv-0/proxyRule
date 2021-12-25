@@ -1,8 +1,15 @@
 # > Apple API
 
-
-
-
+DOMAIN-SUFFIX,apple-cloudkit.com
+DOMAIN-SUFFIX,aaplimg.com
+DOMAIN-SUFFIX,apple.co
+DOMAIN-SUFFIX,apple.com
+DOMAIN-SUFFIX,mzstatic.com
+DOMAIN-SUFFIX,appsto.re
+DOMAIN-SUFFIX,cdn-apple.com
+DOMAIN-SUFFIX,icloud.com
+DOMAIN-SUFFIX,icloud-content.com
+DOMAIN-SUFFIX,itunes.com
 IP-CIDR,17.0.0.0/8,no-resolve
 IP-CIDR,63.92.224.0/19,no-resolve
 IP-CIDR,65.199.22.0/23,no-resolve
