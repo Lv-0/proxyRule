@@ -1,5 +1,5 @@
 #!name=Network Info Panel
-#!desc=網路詳情面板 @Nebulosa-Cat
+#!desc=网络详情面板 增加了一个剩余流量
 #!system=ios
 
 [Panel]
