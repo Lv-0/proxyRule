@@ -27,8 +27,8 @@ const carrierNames = loadCarrierNames();
 
 if (!v4.primaryAddress && !v6.primaryAddress) {
     $done({
-        title: '沒有網路',
-        content: '尚未連接網際網路\n請檢查網際網路狀態後重試',
+        title: '沒有网络',
+        content: '尚未连接至网络\n请检查网络状态后重试',
         icon: 'wifi.exclamationmark',
         'icon-color': '#CB1B45',
     });
@@ -39,14 +39,14 @@ if (!v4.primaryAddress && !v6.primaryAddress) {
         if (carrierId && radio) {
             cellularInfo = carrierNames[carrierId] ?
                 carrierNames[carrierId] + ' | ' + radioGeneration[radio] + ' - ' + radio :
-                '行動數據 | ' + radioGeneration[radio] + ' - ' + radio;
+                '蜂窝数据 | ' + radioGeneration[radio] + ' - ' + radio;
         }
     }
     $httpClient.get('http://ip-api.com/json', function (error, response, data) {
         if (error) {
             $done({
-                title: '發生錯誤',
-                content: '無法獲得目前網路資訊\n請檢查網際網路狀態後重試',
+                title: '发生错误',
+                content: '无法获取目前网络信息\n请检查网络状态后重试',
                 icon: 'wifi.exclamationmark',
                 'icon-color': '#CB1B45',
             });
