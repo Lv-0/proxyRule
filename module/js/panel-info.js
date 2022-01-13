@@ -60,11 +60,10 @@ if (!v4.primaryAddress && !v6.primaryAddress) {
                 (v6.primaryAddress ? `IPv6 : ${v6.primaryAddress}\n` : '') +
                 (v4.primaryRouter && wifi.ssid ? `Router IPv4 : ${v4.primaryRouter}\n` : '') +
                 (v6.primaryRouter && wifi.ssid ? `Router IPv6 : ${v6.primaryRouter}\n` : '') +
-                `Node IP : ${info.query}\n` +
-                `Node ISP : ${info.isp}\n` +
-                `Node Address : ${getFlagEmoji(info.countryCode)} | ${info.country} - ${info.city
-                }`+
-                `Remain Traffic : ${getTraffic()}`,
+                `节点 IP : ${info.query}\n` +
+                `节点 ISP : ${info.isp}\n` +
+                `节点 Address : ${getFlagEmoji(info.countryCode)} | ${info.country} - ${info.city
+                }`,
             icon: wifi.ssid ? 'wifi' : 'simcard',
             'icon-color': wifi.ssid ? '#005CAF' : '#F9BF45',
         });
@@ -79,22 +78,7 @@ function getFlagEmoji(countryCode) {
     return String.fromCodePoint(...codePoints);
 }
 
-function getTraffic(){
-    var use = '';
-    var xmlhttp=new XMLHttpRequest();
-    var url="https://nexitally.net/GetTraffic.aspx?st=all";
-    var type="GET";//方法
-    xmlhttp.open(type,url,true);//方法，接口，异步
-    xmlhttp.send();//发送请求
-    xmlhttp.onreadystatechange=function(){
-        if(xmlhttp.status==200&&xmlhttp.readyState==4){
-            use = xmlhttp.response;
-            var result=JSON.parse(xmlhttp.response); //获取到的json数据
-        }
-        var remain = 1000-use;
-        return remain+'GB';
-    }
-}
+
 
     function loadCarrierNames() {
         //整理邏輯:前三碼相同->後兩碼同電信->剩下的
