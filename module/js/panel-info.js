@@ -175,7 +175,7 @@ if (!v4.primaryAddress && !v6.primaryAddress) {
                         `Node ISP : ${info.isp}\n` +
                         `Node Address : ${getFlagEmoji(info.countryCode)} | ${info.country} - ${info.city}\n\n` +
                         `🧬 Proxy Info\n` +
-                        `Proxy Level : Premium!\n` +
+                        `Proxy Level : Premium\n` +
                         `Traffic : ${trafficInfo.data.traffic}\n` +
                         `Traffic Reset : ${trafficInfo.data.Reset}\n` +
                         `Expire Date : ${trafficInfo.data.Expire}\n\n` +
