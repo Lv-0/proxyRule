@@ -166,14 +166,20 @@ if (!v4.primaryAddress && !v6.primaryAddress) {
                 $done({
                     title: wifi.ssid ? wifi.ssid : cellularInfo,
                     content:
+                        `🧪 Node Info\n` +
                         (v4.primaryAddress ? `IPv4 : ${v4.primaryAddress} \n` : '') +
                         (v6.primaryAddress ? `IPv6 : ${v6.primaryAddress}\n` : '') +
                         (v4.primaryRouter && wifi.ssid ? `Router IPv4 : ${v4.primaryRouter}\n` : '') +
                         (v6.primaryRouter && wifi.ssid ? `Router IPv6 : ${v6.primaryRouter}\n` : '') +
                         `Node IP : ${info.query}\n` +
                         `Node ISP : ${info.isp}\n` +
-                        `Node Address : ${getFlagEmoji(info.countryCode)} | ${info.country} - ${info.city}\n` +
-                        `Traffic : ${trafficInfo.data}\n` +
+                        `Node Address : ${getFlagEmoji(info.countryCode)} | ${info.country} - ${info.city}\n\n` +
+                        `🧬 Proxy Info\n` +
+                        `Proxy Level : Premium!\n` +
+                        `Traffic : ${trafficInfo.data.traffic}\n` +
+                        `Traffic Reset : ${trafficInfo.data.Reset}\n` +
+                        `Expire Date : ${trafficInfo.data.Expire}\n\n` +
+                        `🦠 Streaming Info\n` +
                         panel_youtube.title + panel_youtube.content + '\n' +
                         panel_netflix.title + panel_netflix.content,
                     icon: wifi.ssid ? 'wifi' : 'simcard',
