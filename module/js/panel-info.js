@@ -172,8 +172,8 @@ if (!v4.primaryAddress && !v6.primaryAddress) {
                         (v4.primaryRouter && wifi.ssid ? `Router IPv4 : ${v4.primaryRouter}\n` : '') +
                         (v6.primaryRouter && wifi.ssid ? `Router IPv6 : ${v6.primaryRouter}\n` : '') +
                         `Node IP : ${info.query}\n` +
-                        `Node ISP : ${info.isp}\n` +
-                        `Node Address : ${getFlagEmoji(info.countryCode)} | ${info.country} - ${info.city}\n\n` +
+                        `Node ISP : ${getFlagEmoji(info.countryCode)}${info.isp} | ${info.country},${info.regionName}\n` +
+                        `Node Address : ${info.lon} , ${info.lat}\n\n` +
                         `🧬 Proxy Info\n` +
                         `Proxy Level : Premium\n` +
                         `Traffic : ${trafficInfo.data.traffic}\n` +
