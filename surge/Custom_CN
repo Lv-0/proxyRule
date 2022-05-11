@@ -1,0 +1,94 @@
+DOMAIN-SUFFIX,sspai.com
+DOMAIN-SUFFIX,csdn.com
+DOMAIN-SUFFIX,wps.com
+DOMAIN-SUFFIX,ele.me
+DOMAIN-SUFFIX,ele.com
+DOMAIN-SUFFIX,elm.com
+DOMAIN-SUFFIX,boss.com
+DOMAIN-SUFFIX,qweather.com
+DOMAIN-SUFFIX,pdd.com
+DOMAIN-SUFFIX,pinduoduo.com
+DOMAIN-SUFFIX,pindd.com
+DOMAIN-SUFFIX,pupu.com
+DOMAIN-SUFFIX,piaopiao.com
+DOMAIN-SUFFIX,qidian.com
+DOMAIN-SUFFIX,uu.com
+DOMAIN-SUFFIX,weibo.com
+DOMAIN-SUFFIX,xianyu.com
+DOMAIN-SUFFIX,xiuxiu.com
+DOMAIN-SUFFIX,zhihu.com
+DOMAIN-SUFFIX,huaweicloud.com
+DOMAIN-SUFFIX,12306.com
+DOMAIN-SUFFIX,xiecheng.com
+DOMAIN-SUFFIX,163.com
+# > Alibaba
+DOMAIN-SUFFIX,alibaba.com
+DOMAIN-SUFFIX,alibabausercontent.com
+DOMAIN-SUFFIX,alicdn.com
+DOMAIN-SUFFIX,alikunlun.com
+DOMAIN-SUFFIX,alipay.com
+DOMAIN-SUFFIX,amap.com
+DOMAIN-SUFFIX,autonavi.com
+DOMAIN-SUFFIX,dingtalk.com
+DOMAIN-SUFFIX,mxhichina.com
+DOMAIN-SUFFIX,soku.com
+DOMAIN-SUFFIX,taobao.com
+DOMAIN-SUFFIX,tmall.com
+DOMAIN-SUFFIX,tmall.hk
+DOMAIN-SUFFIX,ykimg.com
+DOMAIN-SUFFIX,youku.com
+DOMAIN-SUFFIX,xiami.com
+DOMAIN-SUFFIX,xiami.net
+# > Baidu
+DOMAIN-SUFFIX,baidu.com
+DOMAIN-SUFFIX,baidubcr.com
+DOMAIN-SUFFIX,baidupan.com
+DOMAIN-SUFFIX,baidupcs.com
+DOMAIN-SUFFIX,bdimg.com
+DOMAIN-SUFFIX,bdstatic.com
+DOMAIN-SUFFIX,yunjiasu-cdn.net
+# > bilibili
+DOMAIN-SUFFIX,acgvideo.com
+DOMAIN-SUFFIX,biliapi.com
+DOMAIN-SUFFIX,biliapi.net
+DOMAIN-SUFFIX,bilibili.com
+DOMAIN-SUFFIX,bilibili.tv
+DOMAIN-SUFFIX,hdslb.com
+# > JD
+DOMAIN-SUFFIX,jd.com
+DOMAIN-SUFFIX,jd.hk
+DOMAIN-SUFFIX,jdpay.com
+DOMAIN-SUFFIX,360buyimg.com
+DOMAIN-SUFFIX,jdt.com
+# > Meituan
+DOMAIN-SUFFIX,dianping.com
+DOMAIN-SUFFIX,dpfile.com
+DOMAIN-SUFFIX,meituan.com
+DOMAIN-SUFFIX,meituan.net
+# > MI
+DOMAIN-SUFFIX,duokan.com
+DOMAIN-SUFFIX,mi.com
+DOMAIN-SUFFIX,mi-img.com
+DOMAIN-SUFFIX,miui.com
+DOMAIN-SUFFIX,miwifi.com
+DOMAIN-SUFFIX,xiaomi.com
+DOMAIN-SUFFIX,xiaomi.net
+# > Tencent
+DOMAIN-SUFFIX,gtimg.com
+DOMAIN-SUFFIX,idqqimg.com
+DOMAIN-SUFFIX,igamecj.com
+DOMAIN-SUFFIX,myapp.com
+DOMAIN-SUFFIX,myqcloud.com
+DOMAIN-SUFFIX,qq.com
+DOMAIN-SUFFIX,qqmail.com
+DOMAIN-SUFFIX,servicewechat.com
+DOMAIN-SUFFIX,tencent.com
+DOMAIN-SUFFIX,tencent-cloud.net
+DOMAIN-SUFFIX,tenpay.com
+DOMAIN-SUFFIX,wechat.com
+DOMAIN,file-igamecj.akamaized.net
+# > speedtest
+DOMAIN-SUFFIX,speedtest.net
+DOMAIN-SUFFIX,netspeedtestmaster.com
+DOMAIN-SUFFIX,speedtest.macpaw.com
+
