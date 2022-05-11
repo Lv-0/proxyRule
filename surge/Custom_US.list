@@ -99,8 +99,8 @@ DOMAIN-SUFFIX,yt.be
 DOMAIN-SUFFIX,ytimg.com
 
 # > other
-ipaddress.com
-medium.com
-nssurge.com
-mitsea.com
-ankiweb.net
+DOMAIN-SUFFIX,ipaddress.com
+DOMAIN-SUFFIX,medium.com
+DOMAIN-SUFFIX,nssurge.com
+DOMAIN-SUFFIX,mitsea.com
+DOMAIN-SUFFIX,ankiweb.net
