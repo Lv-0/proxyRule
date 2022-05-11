@@ -43,7 +43,6 @@ DOMAIN-SUFFIX,t66y.com
 DOMAIN-SUFFIX,zcys.me
 DOMAIN-SUFFIX,lsp.com
 DOMAIN-SUFFIX,meta.com
-DOMAIN-SUFFIX,github.com
 # Telegram
 DOMAIN-SUFFIX,t.me
 DOMAIN-SUFFIX,tdesktop.com
@@ -92,3 +91,7 @@ IP-CIDR,198.45.48.0/20,no-resolve
 IP-CIDR,34.210.42.111/32,no-resolve
 IP-CIDR,52.89.124.203/32,no-resolve
 IP-CIDR,54.148.37.5/32,no-resolve
+# > Github
+DOMAIN-SUFFIX,github.com
+DOMAIN-SUFFIX,github.io
+DOMAIN-SUFFIX,githubusercontent.com
