@@ -54,6 +54,17 @@ DOMAIN-SUFFIX,biliapi.net
 DOMAIN-SUFFIX,bilibili.com
 DOMAIN-SUFFIX,bilibili.tv
 DOMAIN-SUFFIX,hdslb.com
+# > Bilibili
+USER-AGENT,bili*
+DOMAIN-SUFFIX,acg.tv
+DOMAIN-SUFFIX,b23.tv
+DOMAIN-SUFFIX,bilivideo.com
+DOMAIN,upos-hz-mirrorakam.akamaized.net
+// Hong Kong, Macau, Taiwan
+USER-AGENT,bili-inter*
+DOMAIN,apiintl.biliapi.net
+
+
 # > JD
 DOMAIN-SUFFIX,jd.com
 DOMAIN-SUFFIX,jd.hk
@@ -94,4 +105,35 @@ DOMAIN,file-igamecj.akamaized.net
 DOMAIN-SUFFIX,speedtest.net
 DOMAIN-SUFFIX,netspeedtestmaster.com
 DOMAIN-SUFFIX,speedtest.macpaw.com
+PROCESS-NAME,v2ray,Direct
+PROCESS-NAME,ss-local,Direct
+PROCESS-NAME,UUBooster,Direct
+# > Download
+PROCESS-NAME,aria2c,Direct
+PROCESS-NAME,fdm,Direct
+PROCESS-NAME,Folx,Direct
+PROCESS-NAME,NetTransport,Direct
+PROCESS-NAME,Thunder,Direct
+PROCESS-NAME,Transmission,Direct
+PROCESS-NAME,uTorrent,Direct
+PROCESS-NAME,WebTorrent,Direct
+PROCESS-NAME,WebTorrent Helper,Direct
 
+PROCESS-NAME,/Applications/WeChat.app/Contents/MacOS/Mini Program.app/Contents/MacOS/Mini Program,DIRECT
+PROCESS-NAME,/Applications/WeChat.app/Contents/MacOS/WeChat,DIRECT
+DOMAIN-SUFFIX,qidian.com,DIRECT
+PROCESS-NAME,/Applications/Navicat Premium.app/Contents/MacOS/Navicat Premium,DIRECT
+PROCESS-NAME,/Applications/Speedtest.app/Contents/MacOS/Speedtest,DIRECT
+# > Google
+DOMAIN,mtalk.google.com,DIRECT
+DOMAIN,mobile-gtalk.l.google.com,DIRECT
+DOMAIN,alt1-mtalk.google.com,DIRECT
+DOMAIN,alt2-mtalk.google.com,DIRECT
+DOMAIN,alt3-mtalk.google.com,DIRECT
+DOMAIN,alt4-mtalk.google.com,DIRECT
+DOMAIN,alt5-mtalk.google.com,DIRECT
+DOMAIN,alt6-mtalk.google.com,DIRECT
+DOMAIN,alt7-mtalk.google.com,DIRECT
+DOMAIN,alt8-mtalk.google.com,DIRECT
+DOMAIN,alt9-mtalk.google.com,DIRECT
+DOMAIN-SUFFIX,mobile-gtalk.l.google.com,DIRECT
