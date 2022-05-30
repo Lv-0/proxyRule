@@ -19,3 +19,6 @@ USER-AGENT,locationd*
 USER-AGENT,geod*
 USER-AGENT,com.apple.Maps
 USER-AGENT,com.apple.geod*
+
+DOMAIN-SUFFIX,weibo.cn
+DOMAIN-SUFFIX,weibo.com
