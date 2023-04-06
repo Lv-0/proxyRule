@@ -1,0 +1,18 @@
+# > Steam
+DOMAIN-SUFFIX,steampowered.com
+DOMAIN-SUFFIX,steamstatic.com
+DOMAIN-SUFFIX,steamcommunity.com
+DOMAIN-SUFFIX,steamcommunity-a.akamaihd.net
+
+DOMAIN-SUFFIX,store.steampowered.com
+DOMAIN-SUFFIX,store.akamai.steamstatic.com
+
+DOMAIN-SUFFIX,cdn.steamstatic.com.8686c.com
+DOMAIN-SUFFIX,cdn.akamai.steamstatic.com
+DOMAIN-SUFFIX,cdn.steamcommunity.com
+DOMAIN-SUFFIX,cdn.steampowered.com
+DOMAIN-SUFFIX,cdn.store.steampowered.com
+
+DOMAIN-SUFFIX,media.steampowered.com
+DOMAIN-SUFFIX,cloud.steampowered.com
+DOMAIN-SUFFIX,storefront.steampowered.com
