@@ -1,0 +1,16 @@
+#EXTM3U
+#EXT-X-APP APTV
+#EXT-X-APTV-TYPE remote
+#EXT-X-SUB-URL https://ghproxy.com/https://raw.githubusercontent.com/Kimentanm/aptv/master/m3u/bi.m3u
+
+#EXTINF:-1 tvg-logo="https://i2.hdslb.com/bfs/face/544c89e68f2b1f12ffcbb8b3c062a3328e8692d9.jpg" group-title="游戏赛事",哔哩哔哩英雄联盟赛事
+http://148.135.93.213:81/live/bilibili/7734200?line=first
+#EXTINF:-1 tvg-logo="https://i0.hdslb.com/bfs/face/59da329a536b148b0e8d19143b686d2da06dad93.jpg" group-title="户外",老实憨厚的笑笑
+https://d1--cn-gotcha208.bilivideo.com/live-bvc/213658/live_8739477_3713195_1500/index.m3u8?expires=1716646475&len=0&oi=2015903225&pt=h5&qn=0&trid=100718ae90e753cc4e0f8e69a57a6829c945&sigparams=cdn,expires,len,oi,pt,qn,trid&cdn=cn-gotcha208&sign=ba596621a0a7638d57214ba8525e8a65&sk=9398a0469235b6fd79f46daa73cbe9a9&p2p_type=4294967295&sl=10&free_type=0&mid=0&pp=rtmp&source=onetier&trace=10&site=43005cb456310b05c2ac159d710a7df6&order=1
+#EXTINF:-1 tvg-logo="https://i2.hdslb.com/bfs/face/83c4f8195d79b33839fccb6b62ce60c43f6e370c.jpg" group-title="英雄联盟",守护茶茶
+http://148.135.93.213:81/live/bilibili/1440094?line=first
+#EXTINF:-1 tvg-logo="https://i0.hdslb.com/bfs/face/7f2c040b7843d1ea656b4f514c84f4e7f5e5080f.jpg" group-title="虚拟日常",真白花音
+https://d1--cn-gotcha204-2.bilivideo.com/live-bvc/685078/live_401480763_40161379_1500/index.m3u8?expires=1716647478&len=0&oi=2015903225&pt=h5&qn=0&trid=10077394a1191da34c89810f385f7b338b87&sigparams=cdn,expires,len,oi,pt,qn,trid&cdn=cn-gotcha204&sign=fd9deadb6cbd1d53f7f7f228d877f03b&sk=5bf07b9bbe6df2e0a6bc476fe3d9a6428617d9898e213141a6c9950622479373&p2p_type=4294967295&sl=1&free_type=0&mid=0&pp=rtmp&source=onetier&trace=10&site=15a21b62db6d4dd9eb51cea9b5d50090&order=1
+
+
+
