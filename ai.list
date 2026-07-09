@@ -79,3 +79,24 @@ IP-CIDR,199.96.56.0/21,no-resolve
 IP-CIDR,202.160.128.0/22,no-resolve
 IP-CIDR,209.237.192.0/19,no-resolve
 IP-CIDR,69.195.160.0/19,no-resolve
+DOMAIN-SUFFIX,perplexity.ai
+DOMAIN-SUFFIX,pplx.ai
+DOMAIN,cdn.usefathom.com
+DOMAIN-SUFFIX,anthropic.com
+DOMAIN-SUFFIX,claude.ai
+DOMAIN-SUFFIX,claude.com
+DOMAIN-SUFFIX,claudeusercontent.com
+PROCESS-NAME,Claude
+PROCESS-NAME,Claude Helper
+PROCESS-NAME,Claude Helper (GPU)
+PROCESS-NAME,Claude Helper (Plugin)
+PROCESS-NAME,Claude Helper (Renderer)
+PROCESS-NAME,claude
+PROCESS-NAME,Claude Code
+PROCESS-NAME,Claude Code Helper
+DOMAIN,generativelanguage.googleapis.com
+DOMAIN-SUFFIX,aisandbox-pa.googleapis.com
+DOMAIN-SUFFIX,robinfrontend-pa.googleapis.com
+DOMAIN,copilot.microsoft.com
+DOMAIN-SUFFIX,chorus.sh
+DOMAIN-SUFFIX,x.ai
