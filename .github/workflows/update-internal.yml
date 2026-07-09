@@ -1,0 +1,77 @@
+name: Update Internal Proxy Rules
+
+on:
+  workflow_dispatch:
+  schedule:
+    # 06:00 Asia/Tokyo / 05:00 Beijing = 21:00 UTC
+    - cron: "0 21 * * *"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: update-internal-proxy-rules
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Aggregate and deduplicate rules
+        shell: bash
+        run: |
+          python3 <<'PY'
+          from pathlib import Path
+          from urllib.request import Request, urlopen
+          import sys
+
+          urls = [
+              "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/AliPay/AliPay.list",
+              "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Alibaba/Alibaba.list",
+              "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/BiliBili/BiliBili.list",
+              "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/DouYin/DouYin.list",
+              "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/XiaoHongShu/XiaoHongShu.list",
+              "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/WeChat/WeChat.list",
+          ]
+
+          seen = set()
+          rules = []
+
+          for url in urls:
+              print(f"Fetching {url}")
+              req = Request(url, headers={"User-Agent": "GitHub Actions"})
+              try:
+                  with urlopen(req, timeout=60) as response:
+                      text = response.read().decode("utf-8")
+              except Exception as exc:
+                  print(f"Failed to fetch {url}: {exc}", file=sys.stderr)
+                  raise
+
+              for raw_line in text.splitlines():
+                  line = raw_line.strip()
+                  if not line or line.startswith("#"):
+                      continue
+                  if line not in seen:
+                      seen.add(line)
+                      rules.append(line)
+
+          Path("Internal").write_text("\n".join(rules) + ("\n" if rules else ""), encoding="utf-8")
+          print(f"Wrote {len(rules)} unique rules to Internal")
+          PY
+
+      - name: Commit and push changes
+        shell: bash
+        run: |
+          if git diff --quiet -- Internal; then
+            echo "No changes to commit."
+            exit 0
+          fi
+
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add Internal
+          git commit -m "chore: update internal proxy rules"
+          git push
