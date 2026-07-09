@@ -16,7 +16,7 @@ permissions:
   contents: write
 
 concurrency:
-  group: update-proxy-rule-groups
+  group: update-proxy.list-rule-groups
   cancel-in-progress: false
 
 jobs:
