@@ -2,6 +2,11 @@ name: Update Internal Proxy Rules
 
 on:
   workflow_dispatch:
+  push:
+    branches:
+      - main
+    paths:
+      - ".github/workflows/update-internal.yml"
   schedule:
     # 06:00 Asia/Tokyo / 05:00 Beijing = 21:00 UTC
     - cron: "0 21 * * *"
