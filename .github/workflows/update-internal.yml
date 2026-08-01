@@ -1,6 +1,6 @@
 name: Update Proxy Rule Groups
 
-# Manual trigger: 2026-07-26T06:04:27+08:00
+# Manual trigger: 2026-08-02T06:00:00+08:00
 on:
   workflow_dispatch:
   push:
